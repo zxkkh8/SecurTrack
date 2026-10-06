@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "SecurTrack",
+  "version": "1.0.0",
+  "description": "Website filtering extension",
+
+  "permissions": [
+    "tabs",
+    "webNavigation"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "icons": {
+    "128": "icon.png"
+  }
+}
